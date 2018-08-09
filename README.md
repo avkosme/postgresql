@@ -26,3 +26,9 @@ listen_addresses = '*'
 ```code
 host  all all 0.0.0.0/0 trust
 ```
+
+## Backup
+
+```code
+$ pg_dump -h localhost -U username -d dbname > `date +%Y-%m-%d_%H:%M`-backup.sql
+```
