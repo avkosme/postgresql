@@ -32,3 +32,9 @@ host  all all 0.0.0.0/0 trust
 ```code
 $ pg_dump -h localhost -U username -d dbname > `date +%Y-%m-%d_%H:%M`-backup.sql
 ```
+
+## Restore
+
+```code
+$ psql dbname < data_base_dump.sql
+```
