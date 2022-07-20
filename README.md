@@ -10,9 +10,9 @@ $ systemctl start postgresql-10
 ## Create database, user
 
 ```console
-# CREATE DATABASE dbname;
-# CREATE USER username WITH ENCRYPTED PASSWORD 'password';
-# GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
+# CREATE DATABASE "dbname";
+# CREATE USER "username" WITH ENCRYPTED PASSWORD 'password';
+# GRANT ALL PRIVILEGES ON DATABASE "dbname" TO "username";
 ```
 
 ## Add permission (FOR STAGING ONLY)
